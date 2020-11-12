@@ -26,7 +26,7 @@ La escena contará con 2 o 3 paredes de la mansión de Luigi (Imagen 1) y ademá
 |*Imagen 1: Mansión de Luigi, ejemplo de fondo.* | *Imagen 2: King Boo, ejemplo de personaje en la escena.* |
 
 #### Movimientos
-Boo se moverá a través del eje x dentro de los límites del cuarto y tendrá un pequeño movimiento en el eje y para simular que está flotando en el aire.
+Boo se trasladará a distintas coordenadas (x, y) dentro de los límites del cuarto cada x segundos y tendrá un pequeño movimiento constante cada 2 segundos en el eje z para simular que está flotando en el aire.
 
 #### Texturas
 Se utilizarán texturas para las paredes del cuarto de la mansión de Luigi y la alfombra ubicada en el suelo.
