@@ -12,6 +12,13 @@
 
 ### Control de Versiones
 
+| Fecha         | Versión    | Descripción               | Autor                 |
+|:-------------:|:----------:|:-------------------------:|:---------------------:|
+| <11/11/2020>  | 1.0        | Se definió la propuesta   | Erick González. 
+Arely Aceves
+Jesús Mejía |
+
+
 ### Propuesta
 
 La escena contará con 2 o 3 paredes de la mansión de Luigi (Imagen 1) y además se contará con la renderización de al menos 1 personaje llamado Boo (Imagen 2) el cual tendrá un seguimiento aleatorio a lo largo de la escena.
