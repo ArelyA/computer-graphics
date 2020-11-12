@@ -14,7 +14,7 @@
 
 | Fecha         | Versión    | Descripción               | Autor                 |
 |:-------------:|:----------:|:-------------------------:|:---------------------:|
-| <11/11/2020>  | 1.0        | Se definió la propuesta   | Erick González. Arely Aceves. Jesús Mejía |
+| <11/11/2020>  | 1.0        | Se definió la propuesta   | Erick González<br>Arely Aceves<br>Jesús Mejía |
 
 
 ### Propuesta
