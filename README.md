@@ -23,7 +23,17 @@ La escena contará con 2 o 3 paredes de la mansión de Luigi (Imagen 1) y ademá
 
 |<img src="/Assets/README/SceneBackground.png" alt="Mansion de Luigi" width="250"/> | <img src="/Assets/README/KingBoo.png" alt="Boo" width="250"/>|
 |:--------------------------------------------------:|:--------------------------------------------------:|
-|*Imagen 1: Mansión de Luigi, ejemplo de fondo.* | *Imagen 2: King Boo, ejemplo de personaje en la escena.*
+|*Imagen 1: Mansión de Luigi, ejemplo de fondo.* | *Imagen 2: King Boo, ejemplo de personaje en la escena.* |
+
+#### Movimientos
+Boo se moverá a través del eje x dentro de los límites del cuarto y tendrá un pequeño movimiento en el eje y para simular que está flotando en el aire.
+
+#### Texturas
+Se utilizarán texturas para las paredes del cuarto de la mansión de Luigi y la alfombra ubicada en el suelo.
+
+#### Librerias
+Se utilizará la librería de three.js en este proyecto para facilitar el crear y desplegar gráficos animados 3D.
+
 
 
 
