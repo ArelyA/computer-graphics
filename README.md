@@ -23,7 +23,7 @@ La escena contará con 2 o 3 paredes de la mansión de Luigi (Imagen 1) y ademá
 
 |<img src="/Assets/README/SceneBackground.png" alt="Mansion de Luigi" height="250"/> | <img src="/Assets/README/KingBoo.png" alt="Boo" height="250"/>|
 |:--------------------------------------------------:|:--------------------------------------------------:|
-|*Imagen 1: Mansión de Luigi, ejemplo de fondo.* | *Imagen 2: King Boo, ejemplo de personaje en la escena.* |
+|*Imagen 1: Mansión de Luigi, ejemplo de escena.* | *Imagen 2: King Boo, ejemplo de personaje en la escena.* |
 
 #### Movimientos
 Boo se trasladará a distintas coordenadas (x, y) dentro de los límites del cuarto cada x segundos y tendrá un pequeño movimiento constante cada 2 segundos en el eje z para simular que está flotando en el aire.
