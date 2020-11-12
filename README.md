@@ -21,7 +21,7 @@
 
 La escena contará con 2 o 3 paredes de la mansión de Luigi (Imagen 1) y además se contará con la renderización de al menos 1 personaje llamado Boo (Imagen 2) el cual tendrá un seguimiento aleatorio a lo largo de la escena.
 
-|<img src="/Assets/README/SceneBackground.png" alt="Mansion de Luigi" width="250"/> | <img src="/Assets/README/KingBoo.png" alt="Boo" width="250"/>|
+|<img src="/Assets/README/SceneBackground.png" alt="Mansion de Luigi" height="250"/> | <img src="/Assets/README/KingBoo.png" alt="Boo" height="250"/>|
 |:--------------------------------------------------:|:--------------------------------------------------:|
 |*Imagen 1: Mansión de Luigi, ejemplo de fondo.* | *Imagen 2: King Boo, ejemplo de personaje en la escena.* |
 
