@@ -5,6 +5,7 @@
     <style>
       body {
         margin: 0;
+        height: 100vh;
       }
       canvas {
         display: block;
@@ -14,6 +15,7 @@
   <body>
     <script src="js/three.js"></script>
     <script>
+      //Initial Configuration
       const scene = new THREE.Scene()
       const camera = new THREE.PerspectiveCamera(
         75,
@@ -21,25 +23,21 @@
         0.1,
         1000
       )
-
-      const renderer = new THREE.WebGLRenderer()
+      const renderer = new THREE.WebGLRenderer({ antialias: true })
       renderer.setSize(window.innerWidth, window.innerHeight)
       document.body.appendChild(renderer.domElement)
+
+      //Resizing
+      window.addEventListener('resize', () => {
+        renderer.setSize(window.innerWidth, window.innerHeight)
+        camera.aspect = window.innerWidth / window.innerHeight
+        camera.updateProjectionMatrix()
+      })
 
       const geometry = new THREE.BoxGeometry()
       const materialCube = new THREE.MeshBasicMaterial({ color: 0x00ff00 })
       const cube = new THREE.Mesh(geometry, materialCube)
       scene.add(cube)
-
-      const materialPoints = new THREE.LineBasicMaterial({ color: 0x0000ff })
-      const points = []
-      points.push(new THREE.Vector3(0, 0, 10))
-      points.push(new THREE.Vector3(0, 10, 0))
-      points.push(new THREE.Vector3(10, 0, 0))
-
-      const geometryPoints = new THREE.BufferGeometry().setFromPoints(points)
-      const line = new THREE.Line(geometryPoints, materialPoints)
-      scene.add(line)
 
       camera.position.z = 5
 
