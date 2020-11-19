@@ -15,7 +15,6 @@
 | Fecha         | Versión    | Descripción               | Autor                 |
 |:-------------:|:----------:|:-------------------------:|:---------------------:|
 | <11/11/2020>  | 1.0        | Se definió la propuesta   | Erick González<br>Arely Aceves<br>Jesús Mejía |
-|:-------------:|:----------:|:-------------------------:|:---------------------:|
 | <11/18/2020>  | 1.1        | Se agregó la primera fase del proyecto| Erick González<br>Arely Aceves<br>Jesús Mejía |
 
 ## Avance 1
@@ -43,6 +42,6 @@ Se utilizará la librería de three.js en este proyecto para facilitar el crear 
 
 En este avance se desarrolló la geometría de la plataforma de la mansión de Luigi. Además se añadió la luz de ambiente para poder iluminar la escena. Se cambió el color de escenario para que contrastara con el blanco. Se investigaron diversas texturas que nos permitiran hacer la mansión más realista.
 ### Evidencia
-|<img src="/Assets/README/Avance2.png" alt="Evidencia de Avance 2" height="250"/> |
+|<img src="/Assets/README/Avance2.jpeg" alt="Evidencia de Avance 2" height="250"/> |
 |:--------------------------------------------------:|
 |*Imagen 1: Paredes de la mansión, ejemplo de escena.* |
