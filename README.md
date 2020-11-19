@@ -40,7 +40,7 @@ Se utilizará la librería de three.js en este proyecto para facilitar el crear 
 
 ### Geometría y Luces
 
-En este avance se desarrolló la geometría de la plataforma de la mansión de Luigi. Además se añadió la luz de ambiente para poder iluminar la escena. Se cambió el color de escenario para que contrastara con el blanco. Se investigaron diversas texturas que nos permitiran hacer la mansión más realista.
+En este avance se desarrolló la geometría de la plataforma de la mansión de Luigi. Además, se añadió la luz de ambiente para poder iluminar la escena. Se cambió el color de escenario para que contrastara con el blanco. Se investigaron diversas texturas que nos permitiran hacer la mansión más realista.
 ### Evidencia
 |<img src="/Assets/README/Avance2.jpeg" alt="Evidencia de Avance 2" height="250"/> |
 |:--------------------------------------------------:|
