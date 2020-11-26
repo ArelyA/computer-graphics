@@ -50,17 +50,27 @@ En este avance se desarrolló la geometría de la plataforma de la mansión de L
 
 ### Elementos, Movimientos y Texturas
 
-En este avance se incluyeron más elementos en la escena, así como los personajes principales. Además de esto se agregaron texturas a las cajoneras y los armarios. Por último, quedaron programados los movimientos de todos los personajes.
+En este avance se incluyeron más elementos en la escena, así como los personajes principales. Además de esto se agregaron texturas a las cajoneras y los armarios. Por último, quedaron programados los movimientos de todos los personajes. El Boo principal "flota" y los demás Boo's giran alrededor de él.
 ### Evidencia
 |<img src="/Assets/README/Avance3_top.png" alt="Vista superior" height="250"/> | <img src="/Assets/README/Avance3_1.png" alt="Evidencia 1" height="250"/>|
 |:--------------------------------------------------:|:--------------------------------------------------:|
 |*Imagen 1: Vista superior.* | *Imagen 2: Nuevos elementos en escena, perspectiva 1.* |
 
-|<img src="/Assets/README/Avance3_2.png" alt="Evidencia 2" height="250"/> | <img src="/Assets/README/Avance3_3.png" alt="Evidencia 3" height="250"/>|
-|:--------------------------------------------------:|:--------------------------------------------------:|
-|*Imagen 2: Nuevos elementos en escena, perspectiva 2.* | *Imagen 3: Texturas, perspectiva 1.* |
+|<img src="/Assets/README/Avance3_2.png" alt="Evidencia 2" height="250"/> |
+|:--------------------------------------------------:|
+|*Imagen 2: Nuevos elementos en escena, perspectiva 2.* |
+
+|<img src="/Assets/README/Avance3_3.png" alt="Evidencia 3" height="250"/> |
+|:--------------------------------------------------:|
+|*Imagen 3: Texturas, perspectiva 1.* |
 
 |<img src="/Assets/README/Avance3_4.png" alt="Evidencia 4" height="250"/> |
 |:--------------------------------------------------:|
 |*Imagen 4: Texturas, perspectiva 2.* |
 
+## Para moverse en la escena
+
+* Click izquierdo presionado: Mover toda la escena 
+* Click derecho presionado + Mover en cualquier dirección: Rotar la cámara
+* Scroll Arriba: Zoom In
+* Scroll Abajo: Zoom Out
