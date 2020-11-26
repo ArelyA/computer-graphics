@@ -130,11 +130,21 @@ mesh.onAfterRender = onAfterRender
 
 //Closet #1
 var geometry = new THREE.BoxGeometry(2, 8, 6)
+var texture = new THREE.TextureLoader().load( '/Assets/Textures/TexturesCom_WoodRough0021_2_seamless_S.jpg' );
+texture.wrapS = THREE.RepeatWrapping;
+texture.wrapT = THREE.RepeatWrapping;
+texture.repeat.set( 3,3 );
+material = new THREE.MeshBasicMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
 mesh.position.set(14, -1, 6)
 scene.add(mesh)
 //Puerta #1
 var geometry = new THREE.BoxGeometry(0.5, 7, 2.5)
+var texture = new THREE.TextureLoader().load( '/Assets/Textures/TexturesCom_WoodRough0021_4_seamless_S.jpg' );
+texture.wrapS = THREE.RepeatWrapping;
+texture.wrapT = THREE.RepeatWrapping;
+texture.repeat.set( 1,1 );
+material = new THREE.MeshBasicMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
 mesh.position.set(13, -1, 7.5)
 scene.add(mesh)
@@ -145,6 +155,8 @@ mesh.position.set(13, -1, 4.5)
 scene.add(mesh)
 //Mango de la Puerta #1
 var geometry = new THREE.SphereGeometry(0.25, 32, 32)
+var texture = new THREE.TextureLoader().load( '/Assets/Textures/TexturesCom_LeadPlate_overlay_S_2.png' );
+material = new THREE.MeshBasicMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
 mesh.position.set(12.75, -1, 5)
 scene.add(mesh)
@@ -156,11 +168,21 @@ scene.add(mesh)
 
 //Closet #2
 var geometry = new THREE.BoxGeometry(2, 8, 6)
+var texture = new THREE.TextureLoader().load( '/Assets/Textures/TexturesCom_WoodRough0021_2_seamless_S.jpg' );
+texture.wrapS = THREE.RepeatWrapping;
+texture.wrapT = THREE.RepeatWrapping;
+texture.repeat.set( 3,3 );
+material = new THREE.MeshBasicMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
 mesh.position.set(14, -1, -6)
 scene.add(mesh)
 //Puerta #3
 var geometry = new THREE.BoxGeometry(0.5, 7, 2.5)
+var texture = new THREE.TextureLoader().load( '/Assets/Textures/TexturesCom_WoodRough0021_4_seamless_S.jpg' );
+texture.wrapS = THREE.RepeatWrapping;
+texture.wrapT = THREE.RepeatWrapping;
+texture.repeat.set( 1,1 );
+material = new THREE.MeshBasicMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
 mesh.position.set(13, -1, -7.5)
 scene.add(mesh)
@@ -171,6 +193,8 @@ mesh.position.set(13, -1, -4.5)
 scene.add(mesh)
 //Mango de la Puerta #3
 var geometry = new THREE.SphereGeometry(0.25, 32, 32)
+var texture = new THREE.TextureLoader().load( '/Assets/Textures/TexturesCom_LeadPlate_overlay_S_2.png' );
+material = new THREE.MeshBasicMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
 mesh.position.set(12.75, -1, -5)
 scene.add(mesh)
@@ -179,28 +203,33 @@ var geometry = new THREE.SphereGeometry(0.25, 32, 32)
 mesh = new THREE.Mesh(geometry, material)
 mesh.position.set(12.75, -1, -7)
 scene.add(mesh)
+
 //Cajonera
-var geometry = new THREE.BoxGeometry(3, 6, 7)
-material = new THREE.MeshBasicMaterial({ color: 0x3ccd28 })
+var geometry = new THREE.BoxGeometry(3, 4.5, 7)
+var texture = new THREE.TextureLoader().load( '/Assets/Textures/TexturesCom_WoodRough0021_2_seamless_S.jpg' );
+material = new THREE.MeshBasicMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
 mesh.position.set(-13, -3, 0)
 scene.add(mesh)
 var geometry = new THREE.BoxGeometry(0.25, 1.8, 6.3)
-material = new THREE.MeshBasicMaterial({ color: 0xe24673 })
+var texture = new THREE.TextureLoader().load( '/Assets/Textures/TexturesCom_WoodRough0021_2_seamless_S.jpg' );
+material = new THREE.MeshBasicMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
-mesh.position.set(-11.5, -3.5, 0)
+mesh.position.set(-11.5, -3.79, 0)
 scene.add(mesh)
 var geometry = new THREE.BoxGeometry(0.25, 1.8, 6.3)
-material = new THREE.MeshBasicMaterial({ color: 0xe24673 })
+material = new THREE.MeshBasicMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
-mesh.position.set(-11.5, -1.5, 0)
+mesh.position.set(-11.5, -1.79, 0)
 scene.add(mesh)
+
 //Tapete
 var geometry = new THREE.CylinderGeometry(8, 8, 0.25, 64)
 material = new THREE.MeshBasicMaterial({ color: 0xffff00 })
 mesh = new THREE.Mesh(geometry, material)
 mesh.position.set(0, -4.9, 0)
 scene.add(mesh)
+
 //Mesa #1
 var geometry = new THREE.CylinderGeometry(0.1, 0.1, 2.8, 64)
 material = new THREE.MeshBasicMaterial({ color: 0x489ad1 })
@@ -211,14 +240,15 @@ scene.add(mesh)
 var geometry = new THREE.CylinderGeometry(2, 2, 0.3, 64)
 material = new THREE.MeshBasicMaterial({ color: 0x489ad1 })
 mesh = new THREE.Mesh(geometry, material)
-mesh.position.set(-12.5, -1.5, 7)
+mesh.position.set(-12.5, -1.7, 7)
 scene.add(mesh)
 //Base de mesa #1
 var geometry = new THREE.CylinderGeometry(0.1, 1, 0.4, 64)
 material = new THREE.MeshBasicMaterial({ color: 0x489ad1 })
 mesh = new THREE.Mesh(geometry, material)
-mesh.position.set(-12.5, -4.3, 7)
+mesh.position.set(-12.5, -4.5, 7)
 scene.add(mesh)
+
 //Mesa #2
 var geometry = new THREE.CylinderGeometry(0.1, 0.1, 2.8, 64)
 material = new THREE.MeshBasicMaterial({ color: 0x489ad1 })
@@ -229,15 +259,14 @@ scene.add(mesh)
 var geometry = new THREE.CylinderGeometry(2, 2, 0.3, 64)
 material = new THREE.MeshBasicMaterial({ color: 0x489ad1 })
 mesh = new THREE.Mesh(geometry, material)
-mesh.position.set(-12.5, -1.5, -7)
+mesh.position.set(-12.5, -1.7, -7)
 scene.add(mesh)
 //Base de mesa
 var geometry = new THREE.CylinderGeometry(0.1, 1, 0.4, 64)
 material = new THREE.MeshBasicMaterial({ color: 0x489ad1 })
 mesh = new THREE.Mesh(geometry, material)
-mesh.position.set(-12.5, -4.3, -7)
+mesh.position.set(-12.5, -4.5, -7)
 scene.add(mesh)
-
 
 //Cargar Boo
 var loader = new THREE.GLTFLoader();
