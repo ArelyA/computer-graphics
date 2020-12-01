@@ -225,7 +225,7 @@ mesh.receiveShadow = true
 mesh.castShadow = true
 scene.add(mesh)
 
-light = new THREE.SpotLight(0xffffff, 0.8, 1000)
+light = new THREE.SpotLight(0x3483de, 0.8, 1000)
 light.target = mesh
 light.position.set(15, 15, 15)
 light.castShadow = true
