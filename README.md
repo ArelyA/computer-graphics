@@ -21,8 +21,8 @@
 
 ## Para moverse en la escena
 
-* Click izquierdo presionado: Mover toda la escena 
-* Click derecho presionado + Mover en cualquier dirección: Rotar la cámara
+* Click izquierdo presionado + Mover mouse: Mover toda la escena 
+* Click derecho presionado + Mover mouse: Rotar la cámara
 * Scroll Arriba: Zoom In
 * Scroll Abajo: Zoom Out
 
