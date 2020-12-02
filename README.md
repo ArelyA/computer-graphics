@@ -80,15 +80,10 @@ En este avance se incluyeron más elementos en la escena, así como los personaj
 ## Entrega Final
 
 ### Presentación
-<style>
-.responsive-wrap iframe{ max-width: 100%;}
-</style>
-<div class="responsive-wrap">
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR5KfuDDdeV9mZWyyIhiM29KAdR2tg4ST6DUX5YgWoWL7ieSG1V5JVWGh061yVwaGVb5ym7z9dmFVil/embed?start=true&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
-</div>
+[<img src="/Assets/README/Presentacion.png" alt="Evidencia" height="250"/>](https://docs.google.com/presentation/d/e/2PACX-1vR5KfuDDdeV9mZWyyIhiM29KAdR2tg4ST6DUX5YgWoWL7ieSG1V5JVWGh061yVwaGVb5ym7z9dmFVil/embed?start=true&loop=true&delayms=3000)
 
 ### Evidencia
 
-|[<img src="/Assets/README/Final.png" alt="Evidencia" height="250"/>]("/Assets/README/Final.png") |
+|[<img src="/Assets/README/Final.png" alt="Evidencia" height="250"/>](https://drive.google.com/file/d/1kJ4pvFk1C5-br4v5Ntk7U72CeHXB_Uuj/view?usp=sharing) |
 |:--------------------------------------------------:|
 |*Imagen 1: Resultado final.* |
