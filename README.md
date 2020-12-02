@@ -14,10 +14,10 @@
 
 | Fecha         | Versión    | Descripción               | Autor                 |
 |:-------------:|:----------:|:-------------------------:|:---------------------:|
-| <11/11/2020>  | 1.0        | Se definió la propuesta, ver [Avance 1](#Avance 1)   | Erick González<br>Arely Aceves<br>Jesús Mejía |
-| <11/18/2020>  | 2.0        | Se agregó la primera fase del proyecto, ver [Avance 2](#Avance 2)| Erick González<br>Arely Aceves<br>Jesús Mejía |
-| <11/26/2020>  | 3.0        | Se agregó la siguiente fase del proyecto, ver [Avance 3](#Avance 3)| Erick González<br>Arely Aceves<br>Jesús Mejía |
-| <12/02/2020>  | 4.0        | Se agregó la fase final del proyecto, ver [Entrega Final](#Entrega Final)| Erick González<br>Arely Aceves<br>Jesús Mejía |
+| <11/11/2020>  | 1.0        | Se definió la propuesta, ver [Avance 1](#avance-1)   | Erick González<br>Arely Aceves<br>Jesús Mejía |
+| <11/18/2020>  | 2.0        | Se agregó la primera fase del proyecto, ver [Avance 2](#avance-2)| Erick González<br>Arely Aceves<br>Jesús Mejía |
+| <11/26/2020>  | 3.0        | Se agregó la siguiente fase del proyecto, ver [Avance 3](#avance-3)| Erick González<br>Arely Aceves<br>Jesús Mejía |
+| <12/02/2020>  | 4.0        | Se agregó la fase final del proyecto, ver [Entrega Final](#entrega-final)| Erick González<br>Arely Aceves<br>Jesús Mejía |
 
 ## Para moverse en la escena
 
@@ -80,11 +80,15 @@ En este avance se incluyeron más elementos en la escena, así como los personaj
 ## Entrega Final
 
 ### Presentación
-
+<style>
+.responsive-wrap iframe{ max-width: 100%;}
+</style>
+<div class="responsive-wrap">
 <iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR5KfuDDdeV9mZWyyIhiM29KAdR2tg4ST6DUX5YgWoWL7ieSG1V5JVWGh061yVwaGVb5ym7z9dmFVil/embed?start=true&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+</div>
 
 ### Evidencia
 
-|<img src="/Assets/README/Evidencia.mp4" alt="Evidencia" height="250"/> |
+|[<img src="/Assets/README/Final.png" alt="Evidencia" height="250"/>]("/Assets/README/Final.png") |
 |:--------------------------------------------------:|
 |*Imagen 1: Resultado final.* |
