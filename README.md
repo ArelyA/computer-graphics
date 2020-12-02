@@ -78,7 +78,7 @@ En este avance se incluyeron más elementos en la escena, así como los personaj
 |*Imagen 4: Texturas, perspectiva 2.* |
 
 ## Entrega Final
-
+`Hacer click en las imágenes`
 ### Presentación
 [<img src="/Assets/README/Presentacion.png" alt="Presentacion" height="250"/>](https://docs.google.com/presentation/d/e/2PACX-1vR5KfuDDdeV9mZWyyIhiM29KAdR2tg4ST6DUX5YgWoWL7ieSG1V5JVWGh061yVwaGVb5ym7z9dmFVil/embed?start=true&loop=true&delayms=5000)
 
