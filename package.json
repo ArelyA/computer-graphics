@@ -1,0 +1,22 @@
+{
+  "name": "computer-graphics",
+  "version": "1.0.0",
+  "description": "* Erick González    A01039859\r * Arely Aceves      A01281886\r * Jesús Mejía       A00816657",
+  "main": "GLTFLoader.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vsapiens/computer-graphics.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vsapiens/computer-graphics/issues"
+  },
+  "homepage": "https://github.com/vsapiens/computer-graphics#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
+}

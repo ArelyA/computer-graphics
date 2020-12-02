@@ -14,8 +14,17 @@
 
 | Fecha         | Versión    | Descripción               | Autor                 |
 |:-------------:|:----------:|:-------------------------:|:---------------------:|
-| <11/11/2020>  | 1.0        | Se definió la propuesta   | Erick González<br>Arely Aceves<br>Jesús Mejía |
-| <11/18/2020>  | 1.1        | Se agregó la primera fase del proyecto| Erick González<br>Arely Aceves<br>Jesús Mejía |
+| <11/11/2020>  | 1.0        | Se definió la propuesta, ver [Avance 1](#Avance 1)   | Erick González<br>Arely Aceves<br>Jesús Mejía |
+| <11/18/2020>  | 2.0        | Se agregó la primera fase del proyecto, ver [Avance 2](#Avance 2)| Erick González<br>Arely Aceves<br>Jesús Mejía |
+| <11/26/2020>  | 3.0        | Se agregó la siguiente fase del proyecto, ver [Avance 3](#Avance 3)| Erick González<br>Arely Aceves<br>Jesús Mejía |
+| <12/02/2020>  | 4.0        | Se agregó la fase final del proyecto, ver [Entrega Final](#Entrega Final)| Erick González<br>Arely Aceves<br>Jesús Mejía |
+
+## Para moverse en la escena
+
+* Click izquierdo presionado: Mover toda la escena 
+* Click derecho presionado + Mover en cualquier dirección: Rotar la cámara
+* Scroll Arriba: Zoom In
+* Scroll Abajo: Zoom Out
 
 ## Avance 1
 
@@ -46,7 +55,7 @@ En este avance se desarrolló la geometría de la plataforma de la mansión de L
 |:--------------------------------------------------:|
 |*Imagen 1: Paredes de la mansión, ejemplo de escena.* |
 
-## Avance 2
+## Avance 3
 
 ### Elementos, Movimientos y Texturas
 
@@ -68,9 +77,14 @@ En este avance se incluyeron más elementos en la escena, así como los personaj
 |:--------------------------------------------------:|
 |*Imagen 4: Texturas, perspectiva 2.* |
 
-## Para moverse en la escena
+## Entrega Final
 
-* Click izquierdo presionado: Mover toda la escena 
-* Click derecho presionado + Mover en cualquier dirección: Rotar la cámara
-* Scroll Arriba: Zoom In
-* Scroll Abajo: Zoom Out
+### Presentación
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vR5KfuDDdeV9mZWyyIhiM29KAdR2tg4ST6DUX5YgWoWL7ieSG1V5JVWGh061yVwaGVb5ym7z9dmFVil/embed?start=true&loop=true&delayms=3000" frameborder="0" width="480" height="299" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+### Evidencia
+
+|<img src="/Assets/README/Evidencia.mp4" alt="Evidencia" height="250"/> |
+|:--------------------------------------------------:|
+|*Imagen 1: Resultado final.* |

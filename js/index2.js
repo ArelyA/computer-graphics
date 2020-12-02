@@ -1,7 +1,7 @@
 //import { Scene, GLTFLoader } from 'js/three.js'
 //import { GLTFLoader } from "./loaders/GLTFLoader.js";
 //Initial Configuration
-const scene = new THREE.Scene()
+//Camera
 const camera = new THREE.PerspectiveCamera(
   80,
   window.innerWidth / window.innerHeight,
@@ -9,7 +9,10 @@ const camera = new THREE.PerspectiveCamera(
   2000
 )
 camera.position.set(20, 20, 20)
+//Scene
+const scene = new THREE.Scene()
 scene.add(camera)
+//Renderer
 const renderer = new THREE.WebGLRenderer({ antialias: true })
 renderer.setSize(window.innerWidth, window.innerHeight)
 renderer.shadowMap.enabled = true
@@ -23,13 +26,16 @@ window.addEventListener('resize', () => {
   camera.updateProjectionMatrix()
 })
 
+//Controls
 let controls = new THREE.OrbitControls(camera, renderer.domElement)
 controls.enableZoom = true
 controls.enablePan = true
 controls.maxPolarAngle = Math.PI / 2
 
+//Light
 light = new THREE.AmbientLight(0xffffff, 0.3)
 camera.add(light)
+//Comment light above and uncomment this to get a fully illuminated scene
 /* light = new THREE.DirectionalLight(0xffffff, 2.0, 1000)
 light.position.set(0, 0, 0)
 light.castShadow = true
@@ -303,7 +309,7 @@ scene.add(mesh)
 //Tapete
 var geometry = new THREE.CylinderGeometry(8, 8, 0.25, 64)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/arabic-red-carpet-texture-3d-model_2.jpg'
+  '/Assets/Textures/TexturesCom_PersianCarpets0016_S_2.jpg'
 )
 material = new THREE.MeshLambertMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
