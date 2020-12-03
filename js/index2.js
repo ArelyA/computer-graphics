@@ -2,9 +2,9 @@
 //import { GLTFLoader } from "./loaders/GLTFLoader.js";
 
 //Imports
-import * as THREE from 'https://threejs.org/build/three.min.js';
-import { OrbitControls } from 'https://threejs.org/examples/jsm/controls/OrbitControls.js';
-import { GLTFLoader } from 'https://threejs.org/examples/jsm/loaders/GLTFLoader.js';
+//import * as THREE from 'https://threejs.org/build/three.min.js';
+//import { OrbitControls } from 'https://threejs.org/examples/jsm/controls/OrbitControls.js';
+//import { GLTFLoader } from 'https://threejs.org/examples/jsm/loaders/GLTFLoader.js';
       
 //Initial Configuration
 //Camera
@@ -39,7 +39,7 @@ controls.enablePan = true
 controls.maxPolarAngle = Math.PI / 2
 
 //Light
-light = new THREE.AmbientLight(0xffffff, 0.3)
+let light = new THREE.AmbientLight(0xffffff, 0.3)
 camera.add(light)
 //Comment light above and uncomment this to get a fully illuminated scene
 /* light = new THREE.DirectionalLight(0xffffff, 2.0, 1000)
@@ -461,7 +461,7 @@ function moveBooY(boo, data) {
 
 //Movimiento circular de Boos
 function moveCircleBoo(boo, initPos) {
-  tNueva = initPos + t
+  let tNueva = initPos + t
   boo.position.x = 8 * Math.cos(tNueva) + 0
   boo.position.z = 8 * Math.sin(tNueva) + 0
   boo.rotation.z -= 0.01
