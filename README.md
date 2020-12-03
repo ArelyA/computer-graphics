@@ -19,7 +19,7 @@
 | <11/26/2020>  | 3.0        | Se agregó la siguiente fase del proyecto, ver [Avance 3](#avance-3)| Erick González<br>Arely Aceves<br>Jesús Mejía |
 | <12/02/2020>  | 4.0        | Se agregó la fase final del proyecto, ver [Entrega Final](#entrega-final)| Erick González<br>Arely Aceves<br>Jesús Mejía |
 
-## [Enlace al proyecto 🖱️](https://arelya.github.io/computer-graphics/)
+## [Enlace al resultado final 🖱️](https://arelya.github.io/computer-graphics/)
 ## Para moverse en la escena
 
 * Click izquierdo presionado + Mover mouse: Mover toda la escena 
@@ -79,6 +79,8 @@ En este avance se incluyeron más elementos en la escena, así como los personaj
 |*Imagen 4: Texturas, perspectiva 2.* |
 
 ## Entrega Final
+
+Se cambiaron algunas texturas y se terminó de incluir el resto y se modificó la iluminación.
 `Hacer click en las imágenes`
 ### Presentación
 [<img src="/Assets/README/Presentacion.png" alt="Presentacion" height="250"/>](https://docs.google.com/presentation/d/e/2PACX-1vR5KfuDDdeV9mZWyyIhiM29KAdR2tg4ST6DUX5YgWoWL7ieSG1V5JVWGh061yVwaGVb5ym7z9dmFVil/embed?start=true&loop=true&delayms=5000)
