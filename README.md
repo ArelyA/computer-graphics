@@ -19,7 +19,7 @@
 | <11/26/2020>  | 3.0        | Se agregó la siguiente fase del proyecto, ver [Avance 3](#avance-3)| Erick González<br>Arely Aceves<br>Jesús Mejía |
 | <12/02/2020>  | 4.0        | Se agregó la fase final del proyecto, ver [Entrega Final](#entrega-final)| Erick González<br>Arely Aceves<br>Jesús Mejía |
 
-## [Enlace al proyecto](https://arelya.github.io/computer-graphics/)
+## [Enlace al proyecto 🖱️](https://arelya.github.io/computer-graphics/)
 ## Para moverse en la escena
 
 * Click izquierdo presionado + Mover mouse: Mover toda la escena 
