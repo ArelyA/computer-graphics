@@ -316,7 +316,6 @@ mesh.receiveShadow = true
 mesh.castShadow = true
 scene.add(mesh)
 
-//http://127.0.0.1:8000/index2.html
 //Mesa #1
 var geometry = new THREE.CylinderGeometry(0.1, 0.1, 2.8, 64)
 var texture = new THREE.TextureLoader().load(
