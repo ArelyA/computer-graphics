@@ -400,7 +400,7 @@ var boo2
 var boo3
 var boo4
 
-loader.load('../models/boo/scene.gltf', function (gltf) {
+loader.load('/computer-graphics/models/boo/scene.gltf', function (gltf) {
   boo = gltf.scene.children[0]
   boo.scale.set(0.027, 0.027, 0.027)
   boo.position.set(0, 0, 0)
