@@ -100,7 +100,7 @@ class CustomSinCurve extends THREE.Curve {
 
 //Textura Paredes
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/TexturesCom_WoodRough0021_5_seamless_S.jpg'
+  '/computer-graphics/Assets/Textures/TexturesCom_WoodRough0021_5_seamless_S.jpg'
 )
 
 material = new THREE.MeshLambertMaterial({ map: texture })
@@ -152,7 +152,7 @@ scene.add(mesh)
 //Piso
 var geometry = new THREE.BoxGeometry(30, 30, 0.25)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/TexturesCom_WoodRough0047_4_S.jpg'
+  '/computer-graphics/Assets/Textures/TexturesCom_WoodRough0047_4_S.jpg'
 )
 texture.wrapS = THREE.MirroredRepeatWrapping
 texture.wrapT = THREE.MirroredRepeatWrapping
@@ -171,7 +171,7 @@ scene.add(mesh)
 //Closet #1
 var geometry = new THREE.BoxGeometry(2, 8, 6)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/0088-dark-raw-wood-texture-seamless-hr.jpg'
+  '/computer-graphics/Assets/Textures/0088-dark-raw-wood-texture-seamless-hr.jpg'
 )
 texture.wrapS = THREE.RepeatWrapping
 texture.wrapT = THREE.RepeatWrapping
@@ -185,7 +185,7 @@ scene.add(mesh)
 //Puerta #1
 var geometry = new THREE.BoxGeometry(0.5, 7, 2.5)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/0088-dark-raw-wood-texture-seamless-hr_2.jpg'
+  '/computer-graphics/Assets/Textures/0088-dark-raw-wood-texture-seamless-hr_2.jpg'
 )
 texture.wrapS = THREE.RepeatWrapping
 texture.wrapT = THREE.RepeatWrapping
@@ -206,7 +206,7 @@ scene.add(mesh)
 //Mango de la Puerta #1
 var geometry = new THREE.SphereGeometry(0.25, 32, 32)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/TexturesCom_LeadPlate_overlay_S_2.png'
+  '/computer-graphics/Assets/Textures/TexturesCom_LeadPlate_overlay_S_2.png'
 )
 material = new THREE.MeshLambertMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
@@ -225,7 +225,7 @@ scene.add(mesh)
 //Closet #2
 var geometry = new THREE.BoxGeometry(2, 8, 6)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/0088-dark-raw-wood-texture-seamless-hr.jpg'
+  '/computer-graphics/Assets/Textures/0088-dark-raw-wood-texture-seamless-hr.jpg'
 )
 texture.wrapS = THREE.RepeatWrapping
 texture.wrapT = THREE.RepeatWrapping
@@ -245,7 +245,7 @@ scene.add(light)
 //Puerta #3
 var geometry = new THREE.BoxGeometry(0.5, 7, 2.5)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/0088-dark-raw-wood-texture-seamless-hr_2.jpg'
+  '/computer-graphics/Assets/Textures/0088-dark-raw-wood-texture-seamless-hr_2.jpg'
 )
 texture.wrapS = THREE.RepeatWrapping
 texture.wrapT = THREE.RepeatWrapping
@@ -264,7 +264,7 @@ scene.add(mesh)
 //Mango de la Puerta #3
 var geometry = new THREE.SphereGeometry(0.25, 32, 32)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/TexturesCom_LeadPlate_overlay_S_2.png'
+  '/computer-graphics/Assets/Textures/TexturesCom_LeadPlate_overlay_S_2.png'
 )
 material = new THREE.MeshLambertMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
@@ -283,7 +283,7 @@ scene.add(mesh)
 //Cajonera
 var geometry = new THREE.BoxGeometry(3, 4.5, 7)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/0088-dark-raw-wood-texture-seamless-hr.jpg'
+  '/computer-graphics/Assets/Textures/0088-dark-raw-wood-texture-seamless-hr.jpg'
 )
 texture.wrapS = THREE.RepeatWrapping
 texture.wrapT = THREE.RepeatWrapping
@@ -296,7 +296,7 @@ mesh.castShadow = true
 scene.add(mesh)
 var geometry = new THREE.BoxGeometry(0.25, 1.8, 6.3)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/0088-dark-raw-wood-texture-seamless-hr.jpg'
+  '/computer-graphics/Assets/Textures/0088-dark-raw-wood-texture-seamless-hr.jpg'
 )
 material = new THREE.MeshLambertMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
@@ -315,7 +315,7 @@ scene.add(mesh)
 //Tapete
 var geometry = new THREE.CylinderGeometry(8, 8, 0.25, 64)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/TexturesCom_PersianCarpets0016_S_2.jpg'
+  '/computer-graphics/Assets/Textures/TexturesCom_PersianCarpets0016_S_2.jpg'
 )
 material = new THREE.MeshLambertMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
@@ -328,7 +328,7 @@ scene.add(mesh)
 //Mesa #1
 var geometry = new THREE.CylinderGeometry(0.1, 0.1, 2.8, 64)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/TexturesCom_LeadPlate_overlay_S.png'
+  '/computer-graphics/Assets/Textures/TexturesCom_LeadPlate_overlay_S.png'
 )
 material = new THREE.MeshLambertMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
@@ -339,7 +339,7 @@ scene.add(mesh)
 //Palo de mesa #1
 var geometry = new THREE.CylinderGeometry(2, 2, 0.3, 64)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/0088-dark-raw-wood-texture-seamless-hr.jpg'
+  '/computer-graphics/Assets/Textures/0088-dark-raw-wood-texture-seamless-hr.jpg'
 )
 material = new THREE.MeshLambertMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
@@ -350,7 +350,7 @@ scene.add(mesh)
 //Base de mesa #1
 var geometry = new THREE.CylinderGeometry(0.1, 1, 0.4, 64)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/TexturesCom_LeadPlate_overlay_S.png'
+  '/computer-graphics/Assets/Textures/TexturesCom_LeadPlate_overlay_S.png'
 )
 material = new THREE.MeshLambertMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
@@ -362,7 +362,7 @@ scene.add(mesh)
 //Mesa #2
 var geometry = new THREE.CylinderGeometry(0.1, 0.1, 2.8, 64)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/TexturesCom_LeadPlate_overlay_S.png'
+  '/computer-graphics/Assets/Textures/TexturesCom_LeadPlate_overlay_S.png'
 )
 material = new THREE.MeshLambertMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
@@ -373,7 +373,7 @@ scene.add(mesh)
 //Palo de mesa
 var geometry = new THREE.CylinderGeometry(2, 2, 0.3, 64)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/0088-dark-raw-wood-texture-seamless-hr.jpg'
+  '/computer-graphics/Assets/Textures/0088-dark-raw-wood-texture-seamless-hr.jpg'
 )
 material = new THREE.MeshLambertMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
@@ -384,7 +384,7 @@ scene.add(mesh)
 //Base de mesa
 var geometry = new THREE.CylinderGeometry(0.1, 1, 0.4, 64)
 var texture = new THREE.TextureLoader().load(
-  '/Assets/Textures/TexturesCom_LeadPlate_overlay_S.png'
+  '/computer-graphics/Assets/Textures/TexturesCom_LeadPlate_overlay_S.png'
 )
 material = new THREE.MeshLambertMaterial({ map: texture })
 mesh = new THREE.Mesh(geometry, material)
