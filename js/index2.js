@@ -1,6 +1,7 @@
 //import { Scene, GLTFLoader } from 'js/three.js'
 //import { GLTFLoader } from "./loaders/GLTFLoader.js";
 
+//Imports
 import * as THREE from 'https://threejs.org/build/three.min.js';
 import { OrbitControls } from 'https://threejs.org/examples/jsm/controls/OrbitControls.js';
 import { GLTFLoader } from 'https://threejs.org/examples/jsm/loaders/GLTFLoader.js';
