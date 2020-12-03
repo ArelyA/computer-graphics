@@ -4,7 +4,7 @@
 ### Agosto - Diciembre 2020
 
 
-## Propuesta: Luigi's Mansion
+## Propuesta: Luigi's Mansion: King Boo and Boos
 
 * Erick González    A01039859
 * Arely Aceves      A01281886
