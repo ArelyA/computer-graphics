@@ -1,4 +1,3 @@
-import {GLTFLoader} from 'https://threejsfundamentals.org/threejs/resources/threejs/r127/examples/jsm/loaders/GLTFLoader.js';
 //Initial Configuration
 //Camera
 const camera = new THREE.PerspectiveCamera(
