@@ -385,7 +385,7 @@ mesh.castShadow = true
 scene.add(mesh)
 
 //Cargar Boo
-var loader = new GLTFLoader()
+var loader = new THREE.GLTFLoader()
 var boo
 var boo2
 var boo3
