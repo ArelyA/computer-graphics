@@ -1,3 +1,4 @@
+import {GLTFLoader} from 'https://threejsfundamentals.org/threejs/resources/threejs/r127/examples/jsm/loaders/GLTFLoader.js';
 //Initial Configuration
 //Camera
 const camera = new THREE.PerspectiveCamera(
@@ -385,7 +386,7 @@ mesh.castShadow = true
 scene.add(mesh)
 
 //Cargar Boo
-var loader = new THREE.GLTFLoader()
+var loader = new GLTFLoader()
 var boo
 var boo2
 var boo3
